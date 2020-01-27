@@ -1,6 +1,6 @@
 {
   "name": "@cuebiq/grommet",
-  "version": "2.10.0",
+  "version": "2.10.2",
   "main": "index.js",
   "module": "es6/index.js",
   "jsnext:main": "es6/index.js",
@@ -44,7 +44,8 @@
     "storybook": "cross-env NODE_ENV=development start-storybook -p 9001 -c storybook -s ./storybook/public",
     "build-storybook": "build-storybook -c storybook -o storybook-static -s ./storybook/public",
     "prettier": "pretty-quick --staged",
-    "chromatic": "CHROMATIC_APP_CODE=9q99in2ygnh chromatic test"
+    "chromatic": "CHROMATIC_APP_CODE=9q99in2ygnh chromatic test",
+    "publish:package": "npm run build && cd dist && npm publish"
   },
   "peerDependencies": {
     "react": ">= 16.6.1",
