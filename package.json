@@ -1,5 +1,5 @@
 {
-  "name": "grommet",
+  "name": "@cuebiq/grommet",
   "version": "2.10.0",
   "main": "index.js",
   "module": "es6/index.js",
@@ -19,6 +19,9 @@
   "homepage": "http://grommet.io",
   "bugs": "https://github.com/grommet/grommet/issues",
   "license": "Apache-2.0",
+  "publishConfig": {
+    "registry": "https://nexus.cuebiq.ai/repository/npm-private/"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/grommet/grommet.git"
